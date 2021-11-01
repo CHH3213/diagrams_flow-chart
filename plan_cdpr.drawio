@@ -1,115 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T01:24:17.160Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="LcUs0SSkcKOzJlxqP_cq" version="15.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T01:27:27.523Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="aQeQs42Inldeqr8UpZi3" version="15.6.3" type="github">
   <diagram id="QoAezUC9s3ewCZSQBftZ" name="Page-1">
-    <mxGraphModel dx="1097" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
+    <mxGraphModel dx="931" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#009999" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-1" target="ua3PY_kPn9vB6h3faCUK-2" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-1" target="ua3PY_kPn9vB6h3faCUK-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-1" value="offline_phase" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-1" value="offline_phase" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="90" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#d79b00;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;fillColor=#ffe6cc;" parent="1" source="ua3PY_kPn9vB6h3faCUK-2" target="ua3PY_kPn9vB6h3faCUK-4" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-2" target="ua3PY_kPn9vB6h3faCUK-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-2" value="UAV起飞&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-2" value="UAV起飞&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="290" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-4" target="ua3PY_kPn9vB6h3faCUK-6" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-4" target="ua3PY_kPn9vB6h3faCUK-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-4" value="前500steps平衡阶段，将platform平衡到平衡位置(空中的3米高度处)&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-4" value="前500steps平衡阶段，将platform平衡到平衡位置(空中的3米高度处)&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="490" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-6" target="ua3PY_kPn9vB6h3faCUK-11" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-6" target="ua3PY_kPn9vB6h3faCUK-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-6" value="之后，platform开始沿着圆形轨迹走" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-6" value="之后，platform开始沿着圆形轨迹走" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="690" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-8" target="ua3PY_kPn9vB6h3faCUK-9" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-8" target="ua3PY_kPn9vB6h3faCUK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#d79b00;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;fillColor=#ffe6cc;" parent="1" source="ua3PY_kPn9vB6h3faCUK-8" target="ua3PY_kPn9vB6h3faCUK-4" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-8" target="ua3PY_kPn9vB6h3faCUK-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GzNerrLV8e-F1UKID8HR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ua3PY_kPn9vB6h3faCUK-8" target="GzNerrLV8e-F1UKID8HR-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-8" value="使用PID获得wrench，通过雅可比得到绳子拉力大小" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-8" value="使用PID获得wrench，通过雅可比得到绳子拉力大小" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="500" y="85" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-9" target="ua3PY_kPn9vB6h3faCUK-6" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-9" target="ua3PY_kPn9vB6h3faCUK-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-9" value="然后将力通过插件发布出去" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-9" value="然后将力通过插件发布出去" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="690" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-11" target="ua3PY_kPn9vB6h3faCUK-16" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-11" target="ua3PY_kPn9vB6h3faCUK-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-11" value="小车和无人机同样跟着platform的轨迹走" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-11" value="小车和无人机同样跟着platform的轨迹走" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="890" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-15" value="在这里不通过求梯度得到无人机和小车位置，platform走多少，小车和无人机就走多少" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-15" value="在这里不通过求梯度得到无人机和小车位置，platform走多少，小车和无人机就走多少" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="880" y="100" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-16" value="回到原点，uav RTL,x全部重置状态。" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-16" value="回到原点，uav RTL,x全部重置状态。" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1090" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-19" target="ua3PY_kPn9vB6h3faCUK-21" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-19" target="ua3PY_kPn9vB6h3faCUK-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-19" value="online_phase" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-19" value="online_phase" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="90" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-21" target="ua3PY_kPn9vB6h3faCUK-23" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-21" target="ua3PY_kPn9vB6h3faCUK-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-21" value="UAV起飞&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-21" value="UAV起飞&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="290" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-23" target="ua3PY_kPn9vB6h3faCUK-25" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-23" target="ua3PY_kPn9vB6h3faCUK-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-23" value="前500steps平衡阶段，将platform平衡到平衡位置(空中的3米高度处)&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-23" value="前500steps平衡阶段，将platform平衡到平衡位置(空中的3米高度处)&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="490" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-25" target="ua3PY_kPn9vB6h3faCUK-32" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-25" target="ua3PY_kPn9vB6h3faCUK-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-25" value="之后，platform开始沿着圆形轨迹走" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-25" value="之后，platform开始沿着圆形轨迹走" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="690" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-28" target="ua3PY_kPn9vB6h3faCUK-30" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-28" target="ua3PY_kPn9vB6h3faCUK-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-28" value="使用PID获得wrench，通过雅可比得到绳子拉力大小" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-28" value="使用PID获得wrench，通过雅可比得到绳子拉力大小" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="490" y="375" width="120" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-30" target="ua3PY_kPn9vB6h3faCUK-25" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-30" target="ua3PY_kPn9vB6h3faCUK-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-30" value="然后将力通过插件发布出去" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-30" value="然后将力通过插件发布出去" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="690" y="405" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-32" target="ua3PY_kPn9vB6h3faCUK-34" edge="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-32" target="ua3PY_kPn9vB6h3faCUK-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-32" value="小车和无人机同样跟着platform的轨迹走" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-32" value="小车和无人机同样跟着platform的轨迹走" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="890" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-33" value="在这里需要通过求梯度得到无人机和小车位置，platform走多少，小车和无人机就走多少" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-33" value="在这里需要通过求梯度得到无人机和小车位置，platform走多少，小车和无人机就走多少" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="880" y="405" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ua3PY_kPn9vB6h3faCUK-34" value="回到原点，uav RTL,x全部重置状态。" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="ua3PY_kPn9vB6h3faCUK-34" value="回到原点，uav RTL,x全部重置状态。" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1090" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GzNerrLV8e-F1UKID8HR-1" value="需要调参，让平台平稳住，而后开始运动" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="GzNerrLV8e-F1UKID8HR-1" value="需要调参，让平台平稳住，而后开始运动" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;sketch=1;strokeWidth=3;fontSize=13;rounded=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="40" width="120" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="GzNerrLV8e-F1UKID8HR-3" value="雅可比矩阵需要计算正确，由此计算得到的绳子张力不能有负的。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GzNerrLV8e-F1UKID8HR-3" value="雅可比矩阵需要计算正确，由此计算得到的绳子张力不能有负的。" style="whiteSpace=wrap;html=1;sketch=1;glass=0;rounded=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="67.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
