@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T08:17:13.596Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="RF0H8RRzczvbncrkAN_i" version="15.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T08:19:15.881Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="fNQi85MctEXsu1iY47aI" version="15.6.3" type="github">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
-    <mxGraphModel dx="771" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
+    <mxGraphModel dx="931" dy="1660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-35" value="safe RL Framework" style="swimlane;startSize=20;horizontal=1;containerType=tree;sketch=1;shadow=1;labelBackgroundColor=#FF6666;" vertex="1" parent="1">
-          <mxGeometry x="30" y="20" width="997" height="550" as="geometry" />
+          <mxGeometry x="50" y="-20" width="1540" height="550" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=1;" edge="1" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="-TYBLKqoRME_Oj1y5-Sf-41">
           <mxGeometry relative="1" as="geometry" />
@@ -99,7 +99,7 @@
           <mxGeometry x="40" y="290" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-79" value="是否多智能体？" style="rhombus;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=#FF6666;sketch=0;fillColor=#FF9317;gradientColor=none;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="460" y="215" width="147" height="55" as="geometry" />
+          <mxGeometry x="460" y="185" width="147" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-82" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=1;" edge="1" target="-TYBLKqoRME_Oj1y5-Sf-83" source="-TYBLKqoRME_Oj1y5-Sf-40" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
