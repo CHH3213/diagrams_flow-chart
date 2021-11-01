@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T08:12:14.236Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="k1lVaEW1WYoDu13DGkmT" version="15.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T08:15:45.002Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="4NCZh4KqIYch9quH8P_c" version="15.6.3" type="github">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
     <mxGraphModel dx="1598" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
@@ -97,6 +97,9 @@
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-78" value="model based RL" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry x="40" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-TYBLKqoRME_Oj1y5-Sf-79" value="是否多智能体？" style="rhombus;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=#FF6666;sketch=0;fillColor=#FF9317;gradientColor=none;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
+          <mxGeometry x="460" y="215" width="147" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
