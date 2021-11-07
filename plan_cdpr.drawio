@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T11:10:22.847Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="U2_z-zngalJK7zIwGd6q" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T11:12:26.268Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="RspQOK-PE5ZH35_RJYyd" version="15.7.0" type="github">
   <diagram id="QoAezUC9s3ewCZSQBftZ" name="Page-1">
     <mxGraphModel dx="1154" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#009999" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-4" value="前500steps平衡阶段，将platform平衡到平衡位置(空中的3.5米高度处)&lt;span style=&quot;white-space: pre ; font-size: 13px&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="490" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-6" target="ua3PY_kPn9vB6h3faCUK-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -80,7 +80,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-25" value="之后，platform开始沿着给定轨迹走" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="690" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-28" target="ua3PY_kPn9vB6h3faCUK-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -92,7 +92,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-30" value="然后将力通过插件发布出去" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="690" y="405" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="417.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-32" target="ua3PY_kPn9vB6h3faCUK-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
