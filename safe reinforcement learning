@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T13:11:35.462Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GYPnio-2STyOM5U1s3U6" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T13:27:49.823Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="155ytGZ7xegT9fuALj9K" version="15.7.0" type="github">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
-    <mxGraphModel dx="931" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,144 +11,144 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-40" value="safe RL" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#FF9317;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="40" y="170" width="100" height="40" as="geometry" />
+          <mxGeometry x="290" y="270" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-41" value="CBF" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1" collapsed="1">
-          <mxGeometry x="221" y="267" width="60" height="30" as="geometry" />
+          <mxGeometry x="471" y="367" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-45" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="-TYBLKqoRME_Oj1y5-Sf-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-46" value="network" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="186" y="40" width="100" height="40" as="geometry" />
+          <mxGeometry x="436" y="140" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-47" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="-TYBLKqoRME_Oj1y5-Sf-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-48" value="baselines&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="210" y="452" width="100" height="40" as="geometry" />
+          <mxGeometry x="460" y="552" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-51" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" target="-TYBLKqoRME_Oj1y5-Sf-52" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="281" y="291" as="sourcePoint" />
+            <mxPoint x="531" y="391" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-52" value="数据驱动" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="316" y="321" width="90" height="30" as="geometry" />
+          <mxGeometry x="566" y="421" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-55" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-46" target="-TYBLKqoRME_Oj1y5-Sf-56" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="230" as="sourcePoint" />
+            <mxPoint x="410" y="330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-56" value="actor-critic" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="326" y="40" width="100" height="40" as="geometry" />
+          <mxGeometry x="576" y="140" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-57" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-56" target="-TYBLKqoRME_Oj1y5-Sf-58" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="306" y="140" as="sourcePoint" />
+            <mxPoint x="556" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-58" value="增加一个safety critic，判断state/action是否safe&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="466" y="40" width="174" height="70" as="geometry" />
+          <mxGeometry x="716" y="140" width="174" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-59" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" target="-TYBLKqoRME_Oj1y5-Sf-60" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="481" as="sourcePoint" />
+            <mxPoint x="560" y="581" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-60" value="SAC vs safe SAC" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="350" y="421" width="110" height="40" as="geometry" />
+          <mxGeometry x="600" y="521" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-61" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" target="-TYBLKqoRME_Oj1y5-Sf-62" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="481" as="sourcePoint" />
+            <mxPoint x="560" y="581" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-62" value="TD3 vs safe TD3" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="344" y="521" width="100" height="40" as="geometry" />
+          <mxGeometry x="594" y="621" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-63" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" target="-TYBLKqoRME_Oj1y5-Sf-64" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="481" as="sourcePoint" />
+            <mxPoint x="560" y="581" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-64" value="PPO vs Safe PPO" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="344" y="471" width="116" height="40" as="geometry" />
+          <mxGeometry x="594" y="571" width="116" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-65" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="-TYBLKqoRME_Oj1y5-Sf-35" target="-TYBLKqoRME_Oj1y5-Sf-66" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="281" y="291" as="sourcePoint" />
+            <mxPoint x="531" y="391" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-66" value="&lt;p style=&quot;font-size: medium ; margin: 0px ; line-height: 1px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 10pt ; color: rgb(48 , 48 , 48)&quot;&gt;model based&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="316" y="286" width="110" height="20" as="geometry" />
+          <mxGeometry x="566" y="386" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-75" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-58" target="-TYBLKqoRME_Oj1y5-Sf-76" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="439" y="140" as="sourcePoint" />
+            <mxPoint x="689" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-76" value="critic和safety network如何共同指导actor网络" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="650" y="40" width="190" height="70" as="geometry" />
+          <mxGeometry x="900" y="140" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-77" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="-TYBLKqoRME_Oj1y5-Sf-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-78" value="model based RL" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="40" y="290" width="100" height="40" as="geometry" />
+          <mxGeometry x="290" y="390" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-79" value="是否多智能体？" style="rhombus;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=#FF6666;sketch=0;fillColor=#FF9317;gradientColor=none;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="800" y="290" width="147" height="55" as="geometry" />
+          <mxGeometry x="1050" y="390" width="147" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-85" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" target="-TYBLKqoRME_Oj1y5-Sf-86" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="281" y="291" as="sourcePoint" />
+            <mxPoint x="531" y="391" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-86" value="CBF作为容错控制" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="306" y="231" width="140" height="30" as="geometry" />
+          <mxGeometry x="556" y="331" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-88" value="&lt;div&gt;consider Reinforcement Learning&amp;nbsp;&lt;/div&gt;&lt;div&gt;subject to safety limitations.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry y="100" width="200" height="30" as="geometry" />
+          <mxGeometry x="250" y="200" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-92" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-46" target="-TYBLKqoRME_Oj1y5-Sf-93" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="366" y="60" as="sourcePoint" />
+            <mxPoint x="616" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-93" value="RL作为performance optimization&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="290" y="161" width="179" height="40" as="geometry" />
+          <mxGeometry x="540" y="261" width="179" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-95" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;shadow=1;sketch=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-86" target="-TYBLKqoRME_Oj1y5-Sf-93" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="251" as="sourcePoint" />
-            <mxPoint x="660" y="201" as="targetPoint" />
+            <mxPoint x="860" y="351" as="sourcePoint" />
+            <mxPoint x="910" y="301" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-3" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="Mje4m1TL0_R3IPiURcmT-4" source="-TYBLKqoRME_Oj1y5-Sf-46" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="366" y="60" as="sourcePoint" />
+            <mxPoint x="616" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-4" value="actor网络中添加CBF约束" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="329.5" y="95" width="110.5" height="45" as="geometry" />
+          <mxGeometry x="579.5" y="195" width="110.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-5" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="Mje4m1TL0_R3IPiURcmT-6" source="Mje4m1TL0_R3IPiURcmT-4" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="366" y="60" as="sourcePoint" />
+            <mxPoint x="616" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-6" value="更新actor&lt;br&gt;网络时需要执行安全约束" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="497.75" y="116" width="110.5" height="45" as="geometry" />
+          <mxGeometry x="747.75" y="216" width="110.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-9" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="Mje4m1TL0_R3IPiURcmT-10" source="Mje4m1TL0_R3IPiURcmT-6" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="117.5" as="sourcePoint" />
+            <mxPoint x="770" y="217.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-10" value="即计算策略梯度时使用的策略是已经经过约束后的策略" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="648.25" y="116" width="181.75" height="64" as="geometry" />
+          <mxGeometry x="898.25" y="216" width="181.75" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
