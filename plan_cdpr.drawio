@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T11:12:26.268Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="RspQOK-PE5ZH35_RJYyd" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T13:07:07.928Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="I9wV8C2e-xy1iptqMbdo" version="15.7.0" type="github">
   <diagram id="QoAezUC9s3ewCZSQBftZ" name="Page-1">
-    <mxGraphModel dx="1154" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#009999" math="0" shadow="0">
+    <mxGraphModel dx="1350" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#009999" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,25 +62,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-19" value="online_phase" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="90" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="542.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-21" target="ua3PY_kPn9vB6h3faCUK-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-21" value="UAV起飞&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="290" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="542.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-23" target="ua3PY_kPn9vB6h3faCUK-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-23" value="前500steps平衡阶段，将platform平衡到平衡位置(空中的3.5米高度处)&lt;span style=&quot;white-space: pre ; font-size: 13px&quot;&gt; &lt;/span&gt;" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="490" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="525" width="120" height="95" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-25" target="ua3PY_kPn9vB6h3faCUK-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-25" value="之后，platform开始沿着给定轨迹走" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="700" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="542.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" source="ua3PY_kPn9vB6h3faCUK-28" target="ua3PY_kPn9vB6h3faCUK-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -98,16 +98,44 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-32" value="无人机下一步位置由神经网络求梯度得到" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="890" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="900" y="542.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ua3PY_kPn9vB6h3faCUK-34" value="platform走完整个轨迹，回到原点，uav RTL。" style="whiteSpace=wrap;html=1;sketch=1;strokeWidth=3;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="1090" y="542.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GzNerrLV8e-F1UKID8HR-1" value="需要调参，让平台平稳住，而后开始运动" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;sketch=1;strokeWidth=3;fontSize=13;rounded=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="40" width="120" height="115" as="geometry" />
         </mxCell>
         <mxCell id="GzNerrLV8e-F1UKID8HR-3" value="雅可比矩阵需要计算正确，由此计算得到的绳子张力不能有负的。" style="whiteSpace=wrap;html=1;sketch=1;glass=0;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="67.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvNH0Uwl2zvQ3oBuCaG_-3" value="" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;rounded=0;targetPortConstraint=eastwest;sourcePortConstraint=northsouth;" edge="1" target="EvNH0Uwl2zvQ3oBuCaG_-5" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvNH0Uwl2zvQ3oBuCaG_-4" value="" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;rounded=0;targetPortConstraint=eastwest;sourcePortConstraint=northsouth;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="EvNH0Uwl2zvQ3oBuCaG_-6" parent="1" source="ua3PY_kPn9vB6h3faCUK-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvNH0Uwl2zvQ3oBuCaG_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EvNH0Uwl2zvQ3oBuCaG_-5" target="EvNH0Uwl2zvQ3oBuCaG_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvNH0Uwl2zvQ3oBuCaG_-5" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;小轨迹&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;labelBackgroundColor=#FF3333;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="650" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvNH0Uwl2zvQ3oBuCaG_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="EvNH0Uwl2zvQ3oBuCaG_-6" target="EvNH0Uwl2zvQ3oBuCaG_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvNH0Uwl2zvQ3oBuCaG_-6" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;大轨迹&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;labelBackgroundColor=#FF3333;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="800" y="650" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvNH0Uwl2zvQ3oBuCaG_-7" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; line-height: 1.7&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;uav不动&amp;nbsp; and uav跟着动&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;labelBackgroundColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="625" y="750" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvNH0Uwl2zvQ3oBuCaG_-9" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; line-height: 1.7&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;uav不动&amp;nbsp; and uav跟着动&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;labelBackgroundColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="775" y="750" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
