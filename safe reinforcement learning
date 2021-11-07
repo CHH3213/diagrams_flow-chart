@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T13:29:24.759Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="lobxJyyO9-qkpaYSxYQZ" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-07T13:36:40.183Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qJ7olwnGAqbFbYbRhvft" version="15.7.0" type="github">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
     <mxGraphModel dx="931" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
@@ -8,6 +8,9 @@
           <mxGeometry x="80" width="1540" height="930" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="-TYBLKqoRME_Oj1y5-Sf-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mje4m1TL0_R3IPiURcmT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="Mje4m1TL0_R3IPiURcmT-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-40" value="safe RL" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#FF9317;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
@@ -84,12 +87,6 @@
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-76" value="critic和safety network如何共同指导actor网络" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
           <mxGeometry x="900" y="140" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-TYBLKqoRME_Oj1y5-Sf-77" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="-TYBLKqoRME_Oj1y5-Sf-78" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-TYBLKqoRME_Oj1y5-Sf-78" value="model based RL" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="290" y="390" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-79" value="是否多智能体？" style="rhombus;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=#FF6666;sketch=0;fillColor=#FF9317;gradientColor=none;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
           <mxGeometry x="1050" y="390" width="147" height="55" as="geometry" />
         </mxCell>
@@ -141,6 +138,25 @@
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-10" value="即计算策略梯度时使用的策略是已经经过约束后的策略" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry x="898.25" y="216" width="181.75" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Mje4m1TL0_R3IPiURcmT-11" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="Mje4m1TL0_R3IPiURcmT-12" source="-TYBLKqoRME_Oj1y5-Sf-40" parent="-TYBLKqoRME_Oj1y5-Sf-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mje4m1TL0_R3IPiURcmT-12" value="experiments&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
+          <mxGeometry x="451" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mje4m1TL0_R3IPiURcmT-16" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="Mje4m1TL0_R3IPiURcmT-17" source="Mje4m1TL0_R3IPiURcmT-12" parent="-TYBLKqoRME_Oj1y5-Sf-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mje4m1TL0_R3IPiURcmT-17" value="experiments&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
+          <mxGeometry x="594" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mje4m1TL0_R3IPiURcmT-20" value="model based RL?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
+          <mxGeometry x="220" y="350" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
