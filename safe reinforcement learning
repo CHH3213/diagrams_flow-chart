@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T03:20:17.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="1UoQ_1VTQFxqU7Yafjpu" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T03:23:41.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="wxQW3JEh5LTrm1WpEhCV" version="15.7.3" type="github">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
     <mxGraphModel dx="2062" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-35" value="safe RL Framework" style="swimlane;startSize=20;horizontal=1;containerType=tree;sketch=1;shadow=1;labelBackgroundColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="70" y="20" width="1540" height="1120" as="geometry" />
+          <mxGeometry x="60" y="10" width="1540" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="-TYBLKqoRME_Oj1y5-Sf-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -44,6 +44,9 @@
             <mxPoint x="556" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fixQg0SUtN5xSxW-R9th-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-58" target="fixQg0SUtN5xSxW-R9th-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-58" value="增加一个safety critic，判断state/action是否safe&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
           <mxGeometry x="716" y="140" width="174" height="70" as="geometry" />
         </mxCell>
@@ -77,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-66" value="&lt;p style=&quot;font-size: medium ; margin: 0px ; line-height: 1px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 10pt ; color: rgb(48 , 48 , 48)&quot;&gt;model based&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="584" y="470" width="110" height="20" as="geometry" />
+          <mxGeometry x="540" y="490" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-75" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-58" target="-TYBLKqoRME_Oj1y5-Sf-76" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -88,7 +91,7 @@
           <mxGeometry x="911" y="150" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-79" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;是否多智能体？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=#FF6666;sketch=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="880" y="386" width="147" height="55" as="geometry" />
+          <mxGeometry x="440" y="685" width="147" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-85" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-41" target="-TYBLKqoRME_Oj1y5-Sf-86" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -96,7 +99,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-86" value="CBF作为容错控制" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="570" y="420" width="140" height="30" as="geometry" />
+          <mxGeometry x="560" y="436" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-88" value="&lt;div style=&quot;direction: ltr&quot;&gt;consider Reinforcement Learning&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;direction: ltr&quot;&gt;subject to safety limitations.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
           <mxGeometry x="190" y="223.5" width="200" height="30" as="geometry" />
@@ -107,7 +110,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-93" value="RL作为performance optimization&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="539" y="340" width="200" height="40" as="geometry" />
+          <mxGeometry x="539" y="370" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-95" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;shadow=1;sketch=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-86" target="-TYBLKqoRME_Oj1y5-Sf-93" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -128,8 +131,11 @@
             <mxPoint x="616" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fixQg0SUtN5xSxW-R9th-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="Mje4m1TL0_R3IPiURcmT-6" target="fixQg0SUtN5xSxW-R9th-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-6" value="更新actor&lt;br&gt;网络时需要执行安全约束" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="747.75" y="216" width="110.5" height="45" as="geometry" />
+          <mxGeometry x="747.75" y="225.5" width="110.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-9" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="Mje4m1TL0_R3IPiURcmT-6" target="Mje4m1TL0_R3IPiURcmT-10" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -137,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-10" value="即计算策略梯度时使用的策略是已经经过约束后的策略" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="898.25" y="216" width="181.75" height="64" as="geometry" />
+          <mxGeometry x="898.25" y="216" width="301.75" height="64" as="geometry" />
         </mxCell>
         <mxCell id="Mje4m1TL0_R3IPiURcmT-11" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-40" target="Mje4m1TL0_R3IPiURcmT-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -158,11 +164,11 @@
         <mxCell id="Mje4m1TL0_R3IPiURcmT-20" value="model based RL?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
           <mxGeometry x="210" y="370" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d2cTBLVo8QAvko_O7dax-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.067;exitY=0.473;exitDx=0;exitDy=0;exitPerimeter=0;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="d2cTBLVo8QAvko_O7dax-1" target="Mje4m1TL0_R3IPiURcmT-4" edge="1">
+        <mxCell id="d2cTBLVo8QAvko_O7dax-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.204;entryY=0.889;entryDx=0;entryDy=0;exitX=0.067;exitY=0.473;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;entryPerimeter=0;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="d2cTBLVo8QAvko_O7dax-1" target="Mje4m1TL0_R3IPiURcmT-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d2cTBLVo8QAvko_O7dax-1" value="CBF约束类比于激活函数" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;sketch=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
-          <mxGeometry x="710" y="276" width="254" height="80" as="geometry" />
+          <mxGeometry x="565" y="285" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-5" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="fixQg0SUtN5xSxW-R9th-6" source="Mje4m1TL0_R3IPiURcmT-12" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
@@ -211,6 +217,12 @@
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-23" value="maSAC vs safe maSAC" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry x="740" y="800" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fixQg0SUtN5xSxW-R9th-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="fixQg0SUtN5xSxW-R9th-24" target="-TYBLKqoRME_Oj1y5-Sf-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fixQg0SUtN5xSxW-R9th-24" value="how?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
+          <mxGeometry x="778.25" y="380" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
