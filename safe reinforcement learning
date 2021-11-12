@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T08:10:09.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2N0JQsh7-qPW5PFBMHnP" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T08:29:14.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="NjmCuA4I9_eaSqVm6Cea" version="15.7.3" type="github">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
-    <mxGraphModel dx="1071" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
+    <mxGraphModel dx="2095" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,8 +240,8 @@
             <mxPoint x="620" y="830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fixQg0SUtN5xSxW-R9th-35" value="仓储物流机器人" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="758.25" y="860" width="100" height="40" as="geometry" />
+        <mxCell id="fixQg0SUtN5xSxW-R9th-35" value="应用：仓储物流机器人，往返送货" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
+          <mxGeometry x="758.25" y="860" width="261.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-36" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="fixQg0SUtN5xSxW-R9th-37" source="fixQg0SUtN5xSxW-R9th-6" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
@@ -249,7 +249,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-37" value="某个智能体出故障后，其他智能体的最优" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="741.25" y="910" width="123.5" height="40" as="geometry" />
+          <mxGeometry x="741.25" y="910" width="148.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-38" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="fixQg0SUtN5xSxW-R9th-39" source="fixQg0SUtN5xSxW-R9th-37" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
@@ -257,7 +257,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-39" value="考虑最坏情况" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="904.75" y="910" width="123.5" height="40" as="geometry" />
+          <mxGeometry x="930" y="910" width="123.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-40" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="fixQg0SUtN5xSxW-R9th-41" source="fixQg0SUtN5xSxW-R9th-6" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
@@ -265,7 +265,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-41" value="预训练完整走完整条轨迹的时间最优" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="741.25" y="960" width="123.5" height="40" as="geometry" />
+          <mxGeometry x="747.75" y="960" width="123.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-44" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="fixQg0SUtN5xSxW-R9th-45" source="fixQg0SUtN5xSxW-R9th-41" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
@@ -273,7 +273,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-45" value="往返" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="904.75" y="960" width="123.5" height="40" as="geometry" />
+          <mxGeometry x="920" y="960" width="123.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-48" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="fixQg0SUtN5xSxW-R9th-49" source="fixQg0SUtN5xSxW-R9th-45" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
@@ -281,7 +281,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-49" value="更新目标点" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="1068.25" y="960" width="123.5" height="40" as="geometry" />
+          <mxGeometry x="1090" y="960" width="123.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-50" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" edge="1" target="fixQg0SUtN5xSxW-R9th-51" source="fixQg0SUtN5xSxW-R9th-39" parent="-TYBLKqoRME_Oj1y5-Sf-35">
           <mxGeometry relative="1" as="geometry">
@@ -289,7 +289,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fixQg0SUtN5xSxW-R9th-51" value="追击" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" vertex="1" parent="-TYBLKqoRME_Oj1y5-Sf-35">
-          <mxGeometry x="1068.25" y="910" width="123.5" height="40" as="geometry" />
+          <mxGeometry x="1100" y="910" width="123.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
