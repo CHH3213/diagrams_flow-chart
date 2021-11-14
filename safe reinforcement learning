@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-14T02:05:59.569Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="K2MmuByg-P9QDaefUB96" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-14T12:50:02.615Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="mWeM_KxEf5_rYijaDyxq" version="15.7.3" type="github">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
     <mxGraphModel dx="1350" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         <mxCell id="fixQg0SUtN5xSxW-R9th-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fillColor=#d80073;strokeColor=#A50040;" parent="-TYBLKqoRME_Oj1y5-Sf-35" source="-TYBLKqoRME_Oj1y5-Sf-58" target="fixQg0SUtN5xSxW-R9th-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-TYBLKqoRME_Oj1y5-Sf-58" value="增加一个safety critic，判断state/action是否safe&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
+        <mxCell id="-TYBLKqoRME_Oj1y5-Sf-58" value="增加一个safety critic，判断state/action是否safe--输出类似critic的q值" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
           <mxGeometry x="716" y="140" width="174" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-59" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" target="-TYBLKqoRME_Oj1y5-Sf-60" edge="1">
@@ -87,7 +87,7 @@
             <mxPoint x="689" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-TYBLKqoRME_Oj1y5-Sf-76" value="&lt;b&gt;critic和safety network如何共同指导actor网络&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
+        <mxCell id="-TYBLKqoRME_Oj1y5-Sf-76" value="&lt;b&gt;critic和safety network通过两类q值的权重相加来共同执导actor网络&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
           <mxGeometry x="911" y="150" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-TYBLKqoRME_Oj1y5-Sf-79" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;是否多智能体？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=#FF6666;sketch=1;" parent="-TYBLKqoRME_Oj1y5-Sf-35" vertex="1">
