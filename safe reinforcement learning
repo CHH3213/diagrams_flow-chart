@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T07:22:50.145Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="sE7uWHl1ABFJgLJArP3b" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-17T07:24:13.379Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VZxpbvCUezjuLpFyyIW1" version="15.7.3" type="github" pages="3">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
     <mxGraphModel dx="1108" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
@@ -465,8 +465,19 @@
             <mxPoint x="390" y="370" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GnBc2j0fSKZGpZeOFqYd-5" value="CBF得到安全的safe q" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="O1xKcUQL_XmpI32r4LbH-0">
-          <mxGeometry x="580" y="385" width="160" height="30" as="geometry" />
+        <mxCell id="GnBc2j0fSKZGpZeOFqYd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;fontColor=#CC0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="O1xKcUQL_XmpI32r4LbH-0" source="GnBc2j0fSKZGpZeOFqYd-5" target="GnBc2j0fSKZGpZeOFqYd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GnBc2j0fSKZGpZeOFqYd-5" value="CBF评判安全与否" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="O1xKcUQL_XmpI32r4LbH-0">
+          <mxGeometry x="580" y="385" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GnBc2j0fSKZGpZeOFqYd-6" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;sketch=1;shadow=0;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" target="GnBc2j0fSKZGpZeOFqYd-7" source="aX1jCpoW79hjImA6xj0w-1" parent="O1xKcUQL_XmpI32r4LbH-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnBc2j0fSKZGpZeOFqYd-7" value="打分机制？" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=0;fillColor=#FF9999;strokeColor=#FF3333;fillStyle=auto;" vertex="1" parent="O1xKcUQL_XmpI32r4LbH-0">
+          <mxGeometry x="600" y="440" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
