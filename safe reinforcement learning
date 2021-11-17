@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T03:23:05.015Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Slwh2TOTUYuCEhHDZb0w" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-17T03:27:00.687Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2oZN_s5HidvkpTqOsdKw" version="15.7.3" type="github" pages="3">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
     <mxGraphModel dx="796" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
@@ -512,7 +512,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VlYNW8cxHFa7oD6NXPXJ-31" value="最小修正量，&lt;br&gt;在每个时间步重塑可能的动作范围" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rQBXqPAmBv62r_EE2bai-2">
+        <mxCell id="VlYNW8cxHFa7oD6NXPXJ-31" value="最小修正量，&lt;br&gt;在每个时间步重塑安全的动作范围" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rQBXqPAmBv62r_EE2bai-2">
           <mxGeometry x="430" y="300" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
