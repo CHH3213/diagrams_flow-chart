@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T13:42:51.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="sb0vz6czw5wdgOJTuyZd" version="15.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-24T13:45:10.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="wmS2ztaeh8q4BHdRI1jE" version="15.7.3" type="github" pages="3">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
     <mxGraphModel dx="1451" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
@@ -513,8 +513,8 @@
       <root>
         <mxCell id="rQBXqPAmBv62r_EE2bai-0" />
         <mxCell id="rQBXqPAmBv62r_EE2bai-1" parent="rQBXqPAmBv62r_EE2bai-0" />
-        <mxCell id="rQBXqPAmBv62r_EE2bai-2" value="actor network" style="swimlane;startSize=20;horizontal=1;containerType=tree;sketch=1;swimlaneLine=1;glass=0;rounded=1;shadow=1;" parent="rQBXqPAmBv62r_EE2bai-1" vertex="1">
-          <mxGeometry x="20" y="-170" width="1493" height="850" as="geometry" />
+        <mxCell id="rQBXqPAmBv62r_EE2bai-2" value="actor network" style="swimlane;startSize=20;horizontal=1;containerType=tree;sketch=1;swimlaneLine=1;glass=0;rounded=1;shadow=1;swimlaneFillColor=none;" parent="rQBXqPAmBv62r_EE2bai-1" vertex="1">
+          <mxGeometry x="20" y="-150" width="1493" height="850" as="geometry" />
         </mxCell>
         <mxCell id="rQBXqPAmBv62r_EE2bai-7" value="safe actor module" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="rQBXqPAmBv62r_EE2bai-2" vertex="1">
           <mxGeometry x="30" y="272" width="100" height="40" as="geometry" />
@@ -623,13 +623,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VlYNW8cxHFa7oD6NXPXJ-43" value="(s_t,a*_t,s_t+1,r*_t+1)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fillStyle=solid;fillColor=#FFCCCC;gradientColor=none;" parent="rQBXqPAmBv62r_EE2bai-2" vertex="1">
-          <mxGeometry x="335.5" y="540" width="185" height="40" as="geometry" />
+          <mxGeometry x="585.5" y="680" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VlYNW8cxHFa7oD6NXPXJ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" parent="rQBXqPAmBv62r_EE2bai-2" source="VlYNW8cxHFa7oD6NXPXJ-45" target="VlYNW8cxHFa7oD6NXPXJ-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VlYNW8cxHFa7oD6NXPXJ-45" value="假设有个违反CBF约束的cost，这个cost与奖励结合，作为修正奖励项：r* = r - cost" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#FFE6CC;sketch=1;shadow=0;glass=0;fillStyle=solid;" parent="rQBXqPAmBv62r_EE2bai-2" vertex="1">
-          <mxGeometry x="160" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aQpo9Ss-f1iNN5sQ0ebV-0" value="" style="group" vertex="1" connectable="0" parent="rQBXqPAmBv62r_EE2bai-2">
           <mxGeometry x="680" y="187" width="432" height="393" as="geometry" />
@@ -693,6 +693,14 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-77" y="210" as="sourcePoint" />
             <mxPoint x="-27" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aQpo9Ss-f1iNN5sQ0ebV-6" value="额外的操作" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="rQBXqPAmBv62r_EE2bai-2">
+          <mxGeometry x="240" y="670" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aQpo9Ss-f1iNN5sQ0ebV-7" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;" edge="1" target="aQpo9Ss-f1iNN5sQ0ebV-6" parent="rQBXqPAmBv62r_EE2bai-2" source="VlYNW8cxHFa7oD6NXPXJ-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="720" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
