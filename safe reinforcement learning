@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T12:10:05.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="BywcCwwShG8rOppLQMmb" version="16.1.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-29T12:10:29.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kKovAiaXpDHI47vpRnis" version="16.1.0" type="github" pages="4">
   <diagram id="0zT5iz7PpEiEPAVS20gq" name="Page-1">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFCCCC" math="0" shadow="0">
       <root>
@@ -832,10 +832,10 @@
           <mxGeometry x="1111" y="282" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e_qHWev_M1qDANDU0gbU-0" value="实现方式1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;shadow=1;sketch=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="rMqX5FSYHwa5ELPb0G1O-0">
-          <mxGeometry x="30" y="112.5" width="140" height="65" as="geometry" />
+          <mxGeometry x="20" y="87.5" width="140" height="65" as="geometry" />
         </mxCell>
         <mxCell id="e_qHWev_M1qDANDU0gbU-3" value="让q网络给action打分" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;shadow=1;sketch=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="rMqX5FSYHwa5ELPb0G1O-0">
-          <mxGeometry x="470" y="115" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e_qHWev_M1qDANDU0gbU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;shadow=1;sketch=0;fontSize=14;" edge="1" parent="rMqX5FSYHwa5ELPb0G1O-0" source="e_qHWev_M1qDANDU0gbU-0" target="e_qHWev_M1qDANDU0gbU-1">
           <mxGeometry relative="1" as="geometry" />
@@ -844,7 +844,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_qHWev_M1qDANDU0gbU-1" value="p网络更新之前加入QP安全约束，排除不安全的约束。" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;shadow=1;sketch=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="rMqX5FSYHwa5ELPb0G1O-0">
-          <mxGeometry x="230" y="110" width="150" height="70" as="geometry" />
+          <mxGeometry x="210" y="60" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="e_qHWev_M1qDANDU0gbU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;shadow=1;sketch=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="e_qHWev_M1qDANDU0gbU-10" source="e_qHWev_M1qDANDU0gbU-3" parent="rMqX5FSYHwa5ELPb0G1O-0">
           <mxGeometry relative="1" as="geometry">
@@ -852,7 +852,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e_qHWev_M1qDANDU0gbU-10" value="计算TD目标和TD error" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;shadow=1;sketch=0;fontSize=14;fontColor=#ffffff;" vertex="1" parent="rMqX5FSYHwa5ELPb0G1O-0">
-          <mxGeometry x="470" y="205" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e_qHWev_M1qDANDU0gbU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;shadow=1;sketch=0;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="e_qHWev_M1qDANDU0gbU-14" source="e_qHWev_M1qDANDU0gbU-10" parent="rMqX5FSYHwa5ELPb0G1O-0">
           <mxGeometry relative="1" as="geometry">
