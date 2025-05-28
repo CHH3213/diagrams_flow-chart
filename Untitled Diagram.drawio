@@ -1,9 +1,53 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.0">
   <diagram name="Page-1" id="kyB0F3Xd3GA0Btz2MHOL">
-    <mxGraphModel>
+    <mxGraphModel dx="1018" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fI1gge2iCInBG_Y4Bp5G-1" target="fI1gge2iCInBG_Y4Bp5G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-1" value="agent clearance data&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="238" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fI1gge2iCInBG_Y4Bp5G-2" target="fI1gge2iCInBG_Y4Bp5G-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-2" value="relaxed agent lateral clearance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="295" y="238" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fI1gge2iCInBG_Y4Bp5G-4" target="fI1gge2iCInBG_Y4Bp5G-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-4" value="path search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-7" value="comfortable lateral clearance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="590" y="238" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fI1gge2iCInBG_Y4Bp5G-9" target="fI1gge2iCInBG_Y4Bp5G-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-9" value="dilation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="493" y="213" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-10" value="&amp;nbsp;critical lateral clearance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="590" y="288" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fI1gge2iCInBG_Y4Bp5G-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fI1gge2iCInBG_Y4Bp5G-15" value="agent violation ranges" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="195" y="178" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
