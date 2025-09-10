@@ -1,9 +1,64 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.5">
   <diagram name="第 1 页" id="BbPPVmrYKM4a3natUgWJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="60" width="1260" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-26">
+          <mxGeometry width="980" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-23" value="" style="group" vertex="1" connectable="0" parent="ViqE8kQF4UTN76O3dqRa-26">
+          <mxGeometry x="181.44230769230768" y="40" width="939.5176923076924" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ViqE8kQF4UTN76O3dqRa-23" source="ViqE8kQF4UTN76O3dqRa-14" target="ViqE8kQF4UTN76O3dqRa-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640.3846153846154" y="147" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ViqE8kQF4UTN76O3dqRa-23" source="ViqE8kQF4UTN76O3dqRa-14" target="ViqE8kQF4UTN76O3dqRa-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640.3846153846154" y="147" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-4" value="hard boundary lateral clearance data" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-23">
+          <mxGeometry x="352.21153846153845" y="30" width="128.07692307692307" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ViqE8kQF4UTN76O3dqRa-23" source="ViqE8kQF4UTN76O3dqRa-6" target="ViqE8kQF4UTN76O3dqRa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-6" value="agent clearance data" style="whiteSpace=wrap;html=1;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-23">
+          <mxGeometry x="352.21153846153845" y="250" width="128.07692307692307" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-8" value="agent clearance extracted data" style="whiteSpace=wrap;html=1;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-23">
+          <mxGeometry x="544.3269230769231" y="250" width="128.07692307692307" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ViqE8kQF4UTN76O3dqRa-23" source="ViqE8kQF4UTN76O3dqRa-11" target="ViqE8kQF4UTN76O3dqRa-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-11" value="&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(40, 42, 54); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;struct&lt;/span&gt; &lt;span style=&quot;color: rgb(139, 233, 253);&quot;&gt;AgentConstraintAttributes&lt;/span&gt; {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;  &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;int64_t&lt;/span&gt; object_id &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(189, 147, 249);&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;L&lt;/span&gt;;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;  &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;bool&lt;/span&gt; is_strict_constraint_agent &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(189, 147, 249);&quot;&gt;false&lt;/span&gt;;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;};&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-23">
+          <mxGeometry width="128.07692307692307" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-14" value="&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(40, 42, 54); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;struct&lt;/span&gt; &lt;span style=&quot;color: rgb(139, 233, 253);&quot;&gt;ClearanceMetaData&lt;/span&gt; {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;  &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;double&lt;/span&gt; critical_required_lateral_gap &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(189, 147, 249);&quot;&gt;0.0&lt;/span&gt;;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;  &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;double&lt;/span&gt; comfort_required_lateral_gap &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(189, 147, 249);&quot;&gt;0.0&lt;/span&gt;;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(98, 114, 164);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;  // TODO(huanhui): std::nullopt implies non-agent-related lateral clearances.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(98, 114, 164);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;  // In the future, consider to keep only a pointer in lateral clearance data&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(98, 114, 164);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;  // and make the pointer points to the actual constraint, where we can extract&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(98, 114, 164);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;  // concrete attributes.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;  std&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: rgb(139, 233, 253); font-style: italic;&quot;&gt;optional&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: rgb(139, 233, 253); font-style: italic;&quot;&gt;AgentConstraintAttributes&lt;/span&gt;&amp;gt; agent_attributes &lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;=&lt;/span&gt; std&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;::&lt;/span&gt;nullopt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;};&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-23">
+          <mxGeometry x="53.36538461538461" y="180" width="106.73076923076923" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-27" value="&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(40, 42, 54); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;  std&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;vector&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;lateral_clearance&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;AgentConstraintAttributes&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;left_agent_attributes&lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;  std&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;vector&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;lateral_clearance&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;AgentConstraintAttributes&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 121, 198);&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;right_agent_attributes&lt;/span&gt;&lt;span style=&quot;color: rgb(248, 248, 242);&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-23">
+          <mxGeometry x="448.5561538461539" y="140" width="490.96153846153845" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-24" value="&lt;span style=&quot;font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-wrap-mode: wrap; background-color: rgba(0, 0, 0, 0.075);&quot;&gt;&lt;font style=&quot;color: rgb(255, 69, 30);&quot;&gt;Trace ： NominalPathPlanner_GeneratePath&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-26">
+          <mxGeometry x="192.1153846153846" y="410" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-22" value="&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-wrap-mode: wrap; background-color: rgba(0, 0, 0, 0.075);&quot;&gt;Trace：NominalPathPlanner_Smoother&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-26">
+          <mxGeometry x="950" y="240" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-19" value="agent cost 计算&lt;div&gt;GetAgentProximity&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="ViqE8kQF4UTN76O3dqRa-26">
+          <mxGeometry x="1060" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViqE8kQF4UTN76O3dqRa-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ViqE8kQF4UTN76O3dqRa-26" source="ViqE8kQF4UTN76O3dqRa-8" target="ViqE8kQF4UTN76O3dqRa-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
