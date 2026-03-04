@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="28.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="I_bmA5HsvexQHOFJEFFw">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6BtFVQBfgtU_95v44ll5-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;                        fillColor=#1e7e6e;strokeColor=none;                        fontColor=#d0faf2;fontSize=13;fontStyle=1;                        verticalAlign=middle;" value="调用方 · e.g. CollisionRiskCost" vertex="1">
+          <mxGeometry height="44" width="250" x="325" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-2" edge="1" parent="1" source="6BtFVQBfgtU_95v44ll5-1" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;                                exitX=0.5;exitY=1;exitDx=0;exitDy=0;                                entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6BtFVQBfgtU_95v44ll5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-3" parent="1" style="swimlane;startSize=28;                        fillColor=#13161f;strokeColor=#252b3d;                        fontColor=#4e5a78;fontSize=11;fontStyle=1;                        swimlaneLine=1;rounded=1;arcSize=4;" value="AgentPolicyClearanceGenerator · 类" vertex="1">
+          <mxGeometry height="230" width="450" x="225" y="70" as="geometry">
+            <mxRectangle height="28" width="246" x="175" y="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-4" parent="6BtFVQBfgtU_95v44ll5-3" style="rounded=1;whiteSpace=wrap;html=1;                        fillColor=#1a1f2e;strokeColor=#2e3550;                        fontColor=#e8eaf0;fontSize=12;                        verticalAlign=middle;" value="&lt;b style=&quot;color: rgb(126, 184, 247); font-family: monospace;&quot;&gt;Generate()&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="250" x="100" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-5" edge="1" parent="6BtFVQBfgtU_95v44ll5-3" source="6BtFVQBfgtU_95v44ll5-4" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;" target="6BtFVQBfgtU_95v44ll5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-6" parent="6BtFVQBfgtU_95v44ll5-3" style="rounded=1;whiteSpace=wrap;html=1;                        fillColor=#1a1f2e;strokeColor=#2e3550;                        fontColor=#e8eaf0;fontSize=12;                        verticalAlign=middle;" value="&lt;b style=&quot;color: rgb(126, 184, 247); font-family: monospace;&quot;&gt;CollectPolicyObjectSnapshotInfo()&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(41, 13, 3);&quot;&gt;提取policy info 信息&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="250" x="100" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-7" edge="1" parent="6BtFVQBfgtU_95v44ll5-3" source="6BtFVQBfgtU_95v44ll5-6" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;" target="6BtFVQBfgtU_95v44ll5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-8" parent="6BtFVQBfgtU_95v44ll5-3" style="rounded=1;whiteSpace=wrap;html=1;                        fillColor=#1a1f2e;strokeColor=#2e3550;                        fontColor=#e8eaf0;fontSize=12;                        verticalAlign=middle;" value="&lt;font color=&quot;#7eb8f7&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;生成clearance&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="250" x="100" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-9" parent="1" style="swimlane;startSize=28;                        fillColor=#13161f;strokeColor=#252b3d;                        fontColor=#4e5a78;fontSize=11;fontStyle=1;                        swimlaneLine=1;rounded=1;arcSize=4;" value="两种方法" vertex="1">
+          <mxGeometry height="110" width="590" x="155" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-10" parent="6BtFVQBfgtU_95v44ll5-9" style="rounded=1;whiteSpace=wrap;html=1;                        fillColor=#1a1f2e;strokeColor=#2D7600;                        fontColor=#e8eaf0;fontSize=12;                        verticalAlign=middle;fillColor=#60a917;fontColor=#ffffff;" value="&lt;span style=&quot;color: rgb(102, 57, 186); font-family: Menlo, Consolas, Monaco, monospace; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 253, 84);&quot;&gt;GenerateCartesianClearances&lt;/span&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(41, 13, 3);&quot;&gt;调用&lt;br&gt;ComputeSignedLateralDistance 计算clearance&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="58" width="240" x="30" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-11" parent="6BtFVQBfgtU_95v44ll5-9" style="rounded=1;whiteSpace=wrap;html=1;                        fillColor=#1a1f2e;strokeColor=#666666;                        fontColor=#e8eaf0;fontSize=12;                        verticalAlign=middle;fillColor=#CCCCCC;fontColor=#333333;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(41, 13, 3);&quot;&gt;Lateral Clearance&lt;br&gt;基于 RayCast 逻辑（未实现）&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="58" width="240" x="320" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-12" edge="1" parent="1" source="6BtFVQBfgtU_95v44ll5-8" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;                                exitX=0.5;exitY=1;exitDx=0;exitDy=0;                                entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6BtFVQBfgtU_95v44ll5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-13" edge="1" parent="1" source="6BtFVQBfgtU_95v44ll5-8" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;                                exitX=0.5;exitY=1;exitDx=0;exitDy=0;                                entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6BtFVQBfgtU_95v44ll5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;                        fillColor=#12243a;strokeColor=#1e4a7a;                        fontColor=#7eb8f7;fontSize=13;fontStyle=1;                        verticalAlign=middle;" value="生成 PolicyClearanceMap 列表" vertex="1">
+          <mxGeometry height="44" width="250" x="325" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-15" edge="1" parent="1" source="6BtFVQBfgtU_95v44ll5-10" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;                                exitX=0.5;exitY=1;exitDx=0;exitDy=0;                                entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6BtFVQBfgtU_95v44ll5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-16" edge="1" parent="1" source="6BtFVQBfgtU_95v44ll5-11" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;                                exitX=0.5;exitY=1;exitDx=0;exitDy=0;                                entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6BtFVQBfgtU_95v44ll5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-17" edge="1" parent="1" source="6BtFVQBfgtU_95v44ll5-14" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;" target="6BtFVQBfgtU_95v44ll5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;                        fillColor=#1a1f2e;strokeColor=#2e3550;                        fontColor=#e8eaf0;fontSize=12;                        verticalAlign=middle;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;&lt;span style=&quot;font-family: monospace;&quot;&gt;AgentPolicyClearanceData&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(41, 13, 3);&quot;&gt;封装结果，并提供query 接口 供外部调用。&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="250" x="325" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-19" edge="1" parent="1" source="6BtFVQBfgtU_95v44ll5-18" style="edgeStyle=orthogonalEdgeStyle;html=1;                                strokeColor=#3d4f7a;strokeWidth=2;" target="6BtFVQBfgtU_95v44ll5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BtFVQBfgtU_95v44ll5-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;                        fillColor=#1a4a3a;strokeColor=none;                        fontColor=#a0f0d0;fontSize=13;fontStyle=1;                        verticalAlign=middle;" value="返回结果" vertex="1">
+          <mxGeometry height="44" width="150" x="375" y="645" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
